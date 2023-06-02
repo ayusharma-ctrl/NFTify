@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@500;600&family=Work+Sans:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+/* Hide the scrollbar for all elements */
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+/* Optional: Add custom styling to the scrollbar track and thumb */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
